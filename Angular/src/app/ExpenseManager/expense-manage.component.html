@@ -1,0 +1,52 @@
+<h2 title> User Expense Manager </h2>
+
+<form [formGroup] = 'expenseManagerForm' (ngSubmit) = "update(formGroup.value, formGroup.valid, formGroup)">
+    <mat-dialog-content *ngIf="!Update" > 
+        <div>
+            <div class="pattern">
+                <div class="col-sm-4">
+                    <label>Expense Name</label>
+                    <p>{{expense.expenseName}}</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="pattern">
+                <div class="col-sm-4">
+                    <label>Expense Amoount</label>
+                    <p>{{expense.expenseAmount}}</p>
+                </div>
+            </div>
+        </div>
+    
+        <div>
+            <div class="pattern">
+                <div class="col-sm-4">
+                    <label>Expense Type</label>
+                    <p>{{expense.expenseType}}</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="pattern">
+                <div class="col-sm-4">
+                    <label> Expense Category</label>
+                    <p>{{expense.expenseCategory}}</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="pattern">
+                <div class="col-sm-4">
+                    <label>Date</label>
+                    <p>{{expense.date}}</p>
+                </div>
+            </div>
+        </div>
+</mat-dialog-content>
+
+<mat-dialog-content *ngIf="Update">
+
+</mat-dialog-content>
+    
+</form>

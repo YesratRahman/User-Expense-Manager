@@ -1,0 +1,105 @@
+<form [formGroup]="newExpenseForm" (ngSubmit)="onSubmit()" class="create-expense">
+  <mat-card class="create-expense-card">
+
+    <mat-card-header>
+      <mat-card-title>Create a New Expense</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+
+      <p>
+
+          <mat-label>Name </mat-label>
+          <input matInput type="text" formControlName="userName" placeholder="Enter an expense name" required>
+
+      </p>
+
+    </mat-card-content>
+
+    <mat-card-content>
+
+      <p>
+
+          <mat-label>Amount $ </mat-label>
+          <input matInput type="number" formControlName="amount" placeholder="Enter the amount" required>
+
+      </p>
+
+    </mat-card-content>
+
+    <mat-card-content>
+
+      <p>
+
+          <mat-label>Category </mat-label>
+          <input matInput type="text" formControlName="category" placeholder="Enter a category" required>
+
+      </p>
+
+    </mat-card-content>
+    <mat-card-content>
+
+      <p>
+
+          <mat-label>Description </mat-label>
+          <input matInput type="text" formControlName="description" placeholder="Enter a description" required>
+
+      </p>
+
+    </mat-card-content>
+
+    <mat-card-content>
+
+      <p>
+
+          <mat-label>Recipient </mat-label>
+          <input matInput type="text" formControlName="recipient" placeholder="Enter the recipient" required>
+
+      </p>
+
+    </mat-card-content>
+
+    <mat-card-content>
+
+      <p>
+
+          <mat-label>Date </mat-label>
+        <input matInput type="date" formControlName="expenseDate">
+
+      </p>
+
+    </mat-card-content>
+
+    <mat-card-content>
+
+      <p>
+          <mat-label>Recurring </mat-label>
+          <mat-checkbox Recurring labelPosition="before"
+            checked="false" formControlName="reoccuring">
+          </mat-checkbox>
+
+      </p>
+
+    </mat-card-content>
+
+
+    <!--    <mat-card-content>-->
+    <!--      <div>-->
+    <!--      <label for="date">Date</label>-->
+
+    <!--      <input type="date" formatControlname="expenseDate"-->
+    <!--             [ngClass]="{'is-invalid': isSubmitted && fun.expenseDate.errors }" matInput>-->
+    <!--        <div *ngIf="submitted && fun.expenseDate.errors">-->
+    <!--          <mat-hint *ngIf="fun.amount.expenseDate.required">Please enter a valid date</mat-hint>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--      <div>-->
+    <!--        Recurring <input type="checkbox" name="recurring" value="recurring">-->
+    <!--      </div>-->
+    <!--    </mat-card-content>-->
+
+    <mat-card-content>
+      <button mat-flat-button color="submit" [disabled] = "isLoading">Submit and Save New Expense</button>
+    </mat-card-content>
+  </mat-card>
+</form>

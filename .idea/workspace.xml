@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="739bfe5e-ae37-4f1f-8262-51a54012777e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Angular/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/tsconfig.base.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Angular/tslint.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1k0mNXvEP5V4zXx7udu4qRaB4qC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Angular" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="739bfe5e-ae37-4f1f-8262-51a54012777e" name="Default Changelist" comment="" />
+      <created>1604845843253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604845843253</updated>
+      <workItem from="1604845844329" duration="505000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1604846354150">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1604846354150" />
+  </component>
+</project>

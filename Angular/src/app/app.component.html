@@ -1,0 +1,28 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <button mat-icon-button type="button" (click)="nav.toggle()">
+      <mat-icon svgIcon="menu"></mat-icon>
+    </button>
+    <h1 routerLink="/">Welcome to Financial Tracker!</h1>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #nav mode="side" opened  role="navigation">
+    <mat-nav-list>
+      <a mat-list-item routerLink='/registerTest' *ngIf="!isLoggedIn">Register</a>
+      <a mat-list-item routerLink='/loginTest' *ngIf="!isLoggedIn">Login</a>
+      <a mat-list-item routerLink='/createTest' *ngIf="isLoggedIn">Create Expense</a>
+      <a mat-list-item (click)="logout()" *ngIf="isLoggedIn">Logout</a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+<!--
+  TODO: Add a nav bar for authenticated users.
+-->
+
+

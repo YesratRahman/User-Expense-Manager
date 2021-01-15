@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+}
+
+label{
+    font-weight: bold; 
+}
+
+.pattern{
+    padding-bottom: 12px;
+}
+
+.delete{
+    color: goldenrod;
+}
+
+.title{
+    font-weight: 300; 
+}
+
+.date{
+    margin-bottom: 18px; 
+}

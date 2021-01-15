@@ -1,0 +1,16 @@
+body{
+    width: 100%; 
+}
+
+.registration-card {
+    max-width: 1000px; 
+    max-height: 1000px; 
+    margin: auto;
+
+}
+
+.form-class {
+    flex-wrap: wrap; 
+}
+
+

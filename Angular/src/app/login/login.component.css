@@ -1,0 +1,10 @@
+.login{
+    height: 300px; 
+    align-content: center;
+    display: flex; 
+    align-items: center; 
+}
+
+.login-card {
+    max-width: 800px; 
+}

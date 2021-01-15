@@ -1,0 +1,92 @@
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <mat-card class="registration-card">
+        <mat-card-header>
+            <mat-card-title> Registration</mat-card-title>
+        </mat-card-header>
+
+        <mat-card-content>
+            <div class="form-class">
+                <div>
+                    <mat-form-field class="width-full">
+                        <mat-label>Enter Your First Name</mat-label>
+                        <input matInput type="text" formControlName="firstName" placeholder="First Name"
+                            style="text-indent: 10px" required>
+                    </mat-form-field>
+
+                    <p class="register-class" *ngIf="firstName.dirty && firstName.invalid">First name has unacceptable
+                        character.</p>
+                    <p class="register-class" *ngIf="firstName.touched && firstName.invalid">First name is required to
+                        enter.</p>
+                </div>
+
+                <div class="form">
+                    <mat-form-field class="width-full">
+                        <mat-label>
+                            Enter Your Last Name
+                        </mat-label>
+                        <input matInput type="text" formControlName="lastName" placeholder="Last Name"
+                            style="text-indent: 8px" required>
+                    </mat-form-field>
+                    <p class="register-class" *ngIf="lastName.dirty && lastName.invalid">
+                        Last name has unacceptable character.
+                    </p>
+                    <p class="register-class" *ngIf="lastName.touched && lastName.invalid">
+                        Last name is required to enter.
+                    </p>
+
+                </div>
+
+                <div class="form">
+                    <mat-form-field class="width-full">
+                        <mat-label>
+                            Enter Your Email Address
+                        </mat-label>
+                        <input matInput type="text" formControlName="email" placeholder="Email"
+                            style="text-indent: 10px" required>
+                    </mat-form-field>
+                    <p *ngIf="email.dirty && email.invalid">
+                        Email is typed in wrong format.
+                    </p>
+                    <p *ngIf="email.touched && email.invalid">
+                        Email is required to enter.
+                    </p>
+                </div>
+
+                <div class="form">
+                    <mat-form-field class="width-full">
+                        <mat-label>Create a User Name </mat-label>
+                        <input matInput type="text" formControlName="userName" placeholder="UserName"
+                            style="text-indent: 10px" required>
+                    </mat-form-field>
+                    <p *ngIf="(userName.touched || userName.dirty) && userName.invalid">
+                        UserName is required to enter.
+                    </p>
+                </div>
+
+                <div class="form-class">
+                    <div class="form">
+                        <mat-form-field class="width-full">
+                            <mat-label> Create a Password</mat-label>
+                            <input matInput type="password" formControlName="password" placeholder="Password"
+                                style="text-indent: 10px" required>
+                        </mat-form-field>
+                        <p *ngIf="(password.touched || password.dirty) && userName.invalid">
+                            Password must be 8 characters long. </p>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <mat-form-field class="width-full">
+                        <mat-label>Confirm Password</mat-label>
+                        <input matInput type="password" formControlName="confirmPassword"
+                            placeholder="Confirm password" style="text-indent: 10px" required>
+                    </mat-form-field>
+                    <p *ngIf="(confirmPassword.touched || confirmPassword.dirty) && confirmPassword.invalid"> Password
+                        must match. </p>
+                </div>
+
+            </div>
+            <button mat-flat-button color="primary" [disabled] = "isLoading">Register</button>
+        </mat-card-content>
+    </mat-card>
+</form>
